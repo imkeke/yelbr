@@ -78,10 +78,15 @@
 			</div><!-- #branding -->
 
 		</div><!-- #masthead -->
+
+		<div id="search">
+			<?php get_search_form(); ?>
+		</div>
+
 	</div><!-- #header -->
 
-			<div id="access" role="navigation">
-				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
-			</div><!-- #access -->
+	<div id="access" role="navigation">
+		<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+	</div><!-- #access -->
 
 	<div id="main">

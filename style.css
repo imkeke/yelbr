@@ -63,6 +63,38 @@ body {
 #header #site-description {
 	display: none;
 }
+#masthead {
+	float: left;
+}
+#search {
+	float: right;
+	width: 282px;
+	height: 33px;
+	margin: 22px 45px 0 0;
+	background: url(images/search-bg.png) no-repeat left top;
+}
+#search .screen-reader-text {
+	display: none;
+}
+#search input {
+	border: none;
+	background: transparent;
+}
+#search #s {
+	margin: 1px 0 0 25px;
+	width: 170px;
+	height: 19px;
+	padding: 5px;
+}
+#search #s:focus {
+	outline: none;
+}
+#search #searchsubmit {
+	width: 73px;
+	height: 33px;
+	text-indent: -9999px;
+	cursor: pointer;
+}
 #access {
 	width: 100%;
 	height: 46px;
